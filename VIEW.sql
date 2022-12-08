@@ -1,0 +1,3 @@
+DROP VIEW IF EXISTS v;
+
+CREATE VIEW v AS SELECT * FROM t;  -- no brackets!
